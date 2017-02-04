@@ -1,0 +1,220 @@
+/*connecting this to portfolio assignment 1*/
+
+/*
+* {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: white;
+}
+*/
+  
+  /*how to get the background to work*/
+/*
+body{
+
+	background: url("..css/images/greyfloral");
+}*/
+
+
+#header {
+	background-color: #ffffff;
+	border-bottom: solid #cccccc;
+	position: relative;
+	height: 100px;
+	width: 100%
+
+}
+
+
+.intro h1 {
+	left: 100px;
+	width: auto;
+	/*height: 80px;*/
+	position: relative;
+	float: left;
+	padding: 10px 40px 10px 40px;
+	background-color: #4aaaa5;
+	padding: 30px
+	margin: 0;
+	/*line-height: 100px;
+	vertical-align: center;
+	top: 0;*/
+	display: inline-block;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+
+
+/* this is for navigating from one page to the next */
+
+.connecting {
+	float: right;
+	display: block;
+	list-style-type: none;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #777777;
+	margin-top: 30px;
+	/*margin: 0px 10px 0px 0px;*/
+}
+
+.connecting a{
+	display: inline-block;
+	padding: 10px 20px;
+	text-align: center;
+	position: relative;
+	text-decoration: none;
+	color: #777777;
+	width: auto;
+}
+
+.connecting ul li {
+	display: inline-block;
+	position: relative;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/*why can't i move the navigation bar get it up to the side*/
+
+/*
+.box3 {
+/*	float: left;
+	display: block;*/
+	/*position: relative;*/
+/*	top: 35px;
+	left: 100px;*/
+/*	border-color: #dddddd;
+	padding: 20px 0 0 0;*/
+	/*border: 5px;*/
+/*	width: 960px;*/
+/*	margin: 1px;*/
+
+.container {
+	border: 1px solid bold;
+	max-width: 960px;
+}
+
+.aboutme {
+	border: solid 1px #dddddd;
+	float: left;
+	position: absolute;
+	background-color: #ffffff
+	height: auto;
+	width: 650px;
+	padding: 10px;
+}
+.aboutme h1 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+	padding: 25px 0px 20px 0px;
+	margin: 0 30px 30px 30px;
+	font-weight: bold;
+	border: gray;
+}
+
+.aboutme img {
+	float: left;
+	width: 20%;
+	margin: 15px 10px 15px 10px;
+}
+
+.aboutme p {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #777777;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: justify;
+	margin: 15px 10px 15px 10px;
+}
+
+
+.sidebar {
+	/*display: inline-block;*/
+	float: right;
+	position: relative;
+	height: auto;
+	width: 250px;
+	background-color: #ffffff;
+/*	padding: 20px;*/
+	border: solid 1px #dddddd;
+	margin-left: 35px;
+
+}
+
+
+	  
+.sidebar h2 { 
+	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 20px;
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	padding: 22px 0px 15px 0px;
+	margin: 0px 30px 0px 30px}
+
+
+.imagesconnect img{
+	display: inline-block;
+	height: 50px;
+	/*align-self: center;*/
+	float: left;
+	margin: 15 30px 30px 30px;
+	clear: both;
+}
+
+
+.portfolioimages img {
+	float: left; 
+	width: 20%;
+	margin: 20px 15px 20px 15px;
+}
+
+.form {
+	margin: 35px 35px 30px 35px;
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	color: #777777;
+	font-size: 15px;
+}
+
+input {
+	padding: 5px 5px 5px 5px;
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer {
+	height: 90px;
+	text-align-last: center;
+/*	display: block;*/
+/*	position: fixed;*/
+/*	bottom: 0*/
+	left:0;
+	height: 80px;
+/*	width: 100%;*/
+	background-color: #666666;
+	border-top:solid 5px #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #cbcbcb;
+	line-height: 70px;
+	padding: 20px;
+	clear: both;
+}
