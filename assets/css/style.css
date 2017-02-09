@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   color: #777;
   line-height: 34px;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/greyfloral.png");
 }
 
 * {
@@ -101,6 +101,8 @@ nav a:first-child {
 
 /*footer*/
 
+
+
 footer {
   padding: 30px 0;
   clear: both;
@@ -110,6 +112,8 @@ footer {
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
+  bottom: 0;
+  width: 100%
 }
 
 
@@ -204,6 +208,10 @@ h3,
   float: left;
 }
 
+.clear {
+  clear: both;
+}
+
 
 /*contact page*/
 
@@ -245,7 +253,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* Desktops and laptops ----------- */
+/* Desktops and laptops ---------------------------------- */
 @media only screen
 and (max-width: 980px) {
 /* STYLES GO HERE */
@@ -261,51 +269,73 @@ and (max-width: 980px) {
 	h3 {
 	  	font-size: 18px;
 	}
+  
+/*  nav{
+    float: none;
+  }*/
 
-	#masthead {
-		width: 100%;
-	}
-	
-	.container {
-		width: 100%;
-		height: 100%;
-		max-width: 980px;
-	}
+  #masthead {
+    width: 980px;
+    display: block;
+  }
 
-	#main-container {
-		width: 80%;
-	}
+  .container {
+    width: 950px;
+    height: 100%;
+  }
+  
 
-	.main-section {
-		width: 50%;
-		max-width: 500px;
-		position: absolute;
-	}
+  #main-container {
+    width: 950px;
+    padding-top: 70px;
+    height: 100%;
+    display: block;
 
+  }
 
-	.sidebar {
-		width: 30%;
-		margin-left: 350px;
-	
-	}
+  .main-section {
+    width: 950px;
+    margin-top: 50px;
+    padding: 10px 20px 20px 20px;
+  }
 
-	.social {
-  		width: 40px;
-  		height: 40px;
-  		margin-top: 4x;
-  		margin-right: 3px;
-	}
-
-
-}
+  .work {
+    position: relative;
+    width: 180px;
+    overflow: auto;
+    float: left;
+    margin: 20px 0 25px;
+  }
 
 
-/* tablets (landscape) ----------- */
+  .work img {
+    width: 90%;
+    border: 0 none;
+    opacity: .8;
+  }
+
+
+  .sidebar {
+    width: 950px;
+    margin-top: 50px;
+    display: block;
+    padding: 10px;
+  }
+
+  footer {
+    height: 40px;
+    position: static;
+
+  }
+
+
+
+/* tablets (landscape) --------------------------------- */
 @media only screen
 and (max-width : 768px) {
 /* STYLES GO HERE */
 	body {
-		background: blue;
+		/*background: blue;*/
 	}
 	
 	body{
@@ -321,49 +351,55 @@ and (max-width : 768px) {
 	}
 
 	#masthead {
-		width: 100%;
-	}
-	
-	.container {
-		width: 100%;
-		max-width: 768px;
-		height: 100%;
-	}
+    width: 760px;
+    height: 70px;
+    position: static;
+    margin-bottom: 0;
+  }
 
-	#main-container {
-		width: 50%;
-	}
+  .container {
+    width: 720px;
+  }
+  
+  #logo {
+    line-height: 70px;
+    padding-top: 0;
+  }
 
-	.main-section {
-		width: 80%;
-		max-width: 768px;
-		margin-left: 0;
-	}
+  #main-container {
+    width: 750px;
+    padding-top: 35px;
+    height: 150%;
 
+  }
 
-	.sidebar {
-		margin-top: 300px;
-		width: 30%;	
-	
-	}
+  .main-section {
+    width: 750px;
+    margin-top: 0;
+    padding: 20px;
+    margin-left: 50px;
+    float: none;
+  }
 
-	.social {
-  		width: 40px;
-  		height: 40px;
-  		margin-top: 4x;
-  		margin-right: 3px;
-	}
+  .sidebar {
+    width: 700px;
+    float: none;
+    display: block;
+    margin-left: 50px;
+  }
 
-}
+  footer {
+    height: 40px;
+    position: static;
 
+  }
 
-/* Smartphones (landscape) ----------- */
+ 
+
+/* Smartphones (landscape) ------------------------------ */
 @media only screen
 and (max-width: 640px) {
 /* STYLES GO HERE */
-	body {
-		background: green;
-	}
 	
 	
 	body{
@@ -378,32 +414,75 @@ and (max-width: 640px) {
 	  	font-size: 18px;
 	}
 
-	nav {
-		float: left;
-	}
+  #masthead {
+    width: 640px;
+    height: 80px;
+    position: static;
+    margin-bottom: 0px;
+  }
 
-	.container {
-		width: 100%;
-		height: 100%;
-		max-width: 640px;
-	}
+  .container {
+    width: 600px;
+  }
+  
+  #logo {
+    width: 600px;
+    height: 40px;
+    line-height: 32px;
+    font-size: 25px;
+    padding-top: 0;
+  }
+
+  nav {
+    width: 600px;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  #main-container {
+    width: 570px;
+    height: 200%;
+    padding-top: 35px;
+
+  }
+
+  .main-section {
+    width: 500px;
+    position: relative;
+    margin: 0 0 0 30px;
+  }
+
+  .sidebar {
+    width: 550px;
+    margin-left: 50px;
+  }
+
+  footer {
+    height: 30px;
+    position: static;
+
+  }
 
 
-	.main-section {
-		width: 70%;
-	}
-	.sidebar {
+/*portfolio page*/
 
-		margin-top: 30px;
-	}
-	.social {
-  		width: 40px;
-  		height: 40px;
-  		margin-top: 4x;
-  		margin-right: 3px;
-	}
+.work {
+  width: 274px;
+  float: none;
+  margin: 20px 0 25px;
+}
 
+.work img {
+  width: 90%;
+}
 
-	}
+.work h3 {
+  position: absolute;
+  bottom: 5px;
+}
+
+.clear {
+  clear: both;
+}
 
 }
