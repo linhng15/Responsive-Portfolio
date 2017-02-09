@@ -208,6 +208,10 @@ h3,
   float: left;
 }
 
+.clear {
+  clear: both;
+}
+
 
 /*contact page*/
 
@@ -249,7 +253,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* Desktops and laptops ----------- */
+/* Desktops and laptops ---------------------------------- */
 @media only screen
 and (max-width: 980px) {
 /* STYLES GO HERE */
@@ -318,8 +322,15 @@ and (max-width: 980px) {
     padding: 10px;
   }
 
+  footer {
+    height: 40px;
+    position: static;
 
-/* tablets (landscape) ----------- */
+  }
+
+
+
+/* tablets (landscape) --------------------------------- */
 @media only screen
 and (max-width : 768px) {
 /* STYLES GO HERE */
@@ -340,8 +351,10 @@ and (max-width : 768px) {
 	}
 
 	#masthead {
-    width: 768px;
-    height: 80px;
+    width: 760px;
+    height: 70px;
+    position: static;
+    margin-bottom: 0;
   }
 
   .container {
@@ -349,36 +362,41 @@ and (max-width : 768px) {
   }
   
   #logo {
-    line-height: 80px;
+    line-height: 70px;
     padding-top: 0;
   }
 
   #main-container {
     width: 750px;
     padding-top: 35px;
-    height: 100%;
+    height: 150%;
 
   }
 
   .main-section {
     width: 750px;
+    margin-top: 0;
     padding: 20px;
     margin-left: 50px;
     float: none;
-    position: absolute;
   }
 
   .sidebar {
     width: 700px;
     float: none;
     display: block;
-    position: absolute;
-    padding: 10px;
+    margin-left: 50px;
   }
 
+  footer {
+    height: 40px;
+    position: static;
 
+  }
 
-/* Smartphones (landscape) ----------- */
+ 
+
+/* Smartphones (landscape) ------------------------------ */
 @media only screen
 and (max-width: 640px) {
 /* STYLES GO HERE */
@@ -399,6 +417,8 @@ and (max-width: 640px) {
   #masthead {
     width: 640px;
     height: 80px;
+    position: static;
+    margin-bottom: 0px;
   }
 
   .container {
@@ -426,65 +446,43 @@ and (max-width: 640px) {
 
   }
 
-/*  .main-section img {
-    width: 300px;
-    text-align: center;
-    display: block;
-   
-
-  }*/
-
   .main-section {
-    width: 550px;
-    padding: 20px;
-    margin-left: 50px;
-    margin-right: 70px;
-    float: none;
+    width: 500px;
     position: relative;
+    margin: 0 0 0 30px;
   }
 
   .sidebar {
     width: 550px;
-    float: none;
-    display: block;
-    position: relative;
     margin-left: 50px;
   }
 
-  .work img {
-    width: 70%;
-    border: 0 none;
-    opacity: .8;
-    }
-
-  .work {
-    position: relative;
-    width: 137px;
-/*    overflow: auto;
-    float: none;
-    margin: 20px 0 25px;*/
-  }
-
-/*  .work:nth-child(even) {
-    margin-right: 40px;
-  }*/
-
-
-/*  .work h3 {
-    position: absolute;
-    bottom: 20px;
-    margin-bottom: 0;
-    padding: 15px;
-    width: 100%;
-    text-align: center;
-    line-height: 30px;
-    border-bottom: 0;
-  }*/
-
   footer {
+    height: 30px;
     position: static;
+
   }
 
-	}
+
+/*portfolio page*/
+
+.work {
+  width: 274px;
+  float: none;
+  margin: 20px 0 25px;
+}
+
+.work img {
+  width: 90%;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 5px;
+}
+
+.clear {
+  clear: both;
+}
 
 }
