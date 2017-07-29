@@ -3,9 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-
-
-<title>Linh Nguyen Profolio</title>
+	<title>Contact | Linh Nguyen</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/resets.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -14,90 +12,58 @@
 
 <body>
 
-	<div id="header">
-	
+	<header id="masthead">
+	    <div class="container">
+	      <a href="index.html" id="logo">Linh Nguyen</a>
+	      <nav>
+	        <a href="index.html">About</a>
+	        <a href="portfolio.html">Portfolio</a>
+	        <a href="contact.html">Contact</a>
+	      </nav>
+	    </div>
+  	</header>
 
-		<div class="intro">
-		 	<h1>Linh Nguyen</h1>
-		</div>
- 
-	
-		   <!-- connecting to other page-->
+	<div id="main-container" class="container">
+	    <section class="main-section">
+	      <h1>Contact</h1>
 
+	      <form id="contact-form">
+	        <ul>
+	          <li>
+	            <label for="name">Name</label>
+	            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+	          </li>
+	          <li>
+	            <label for="email">Email</label>
+	            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+	          </li>
+	          <li>
+	            <label for="message">Message</label>
+	            <textarea id="message" name="message" required="required"></textarea>
+	          </li>
+	        </ul>
+	        <input type="submit">
+	      </form>
 
-		<nav class="connecting">
-			<ul>
-			   	<li><a href="About">About</a></li>
-			     <li><a href="Profolio">Porfolio</a></li>
-			     <li><a href="Contact">Contact</a></li>
-			</ul>
-		</nav>
+	    </section>
 
-	</div>
+	    <section class="sidebar">
+	      <div id="connect">
+	        <h2>Connect with Me</h2>
 
+	        <a href="https://github.com/linhng15"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
+	        <a href="https://www.linkedin.com/in/linh-nguyen-a33444129/"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+	        <a href="http://stackoverflow.com/"><img src="assets/images/stackoverflow-square-shadow-social-media.png" class="social" alt="Stack Overflow" /></a>
+	      </div>
+	    </section>
+  	</div>
 
-		<!--this is for providing contact information -->
-
-	<div class="aboutme">
-		<h1> Contact</h1>
-
-		<!--adding line break -->
-
-		<hr size=2>
-
-			<div class="form">
-
-		 		<form action="contact">
-		 			Name <input type="text" placeholder="John Smith" required>
-		 			Email <input type="text" required="" placeholder="Example@gmail.com">
-		 			Message <input type="text">
-		 			<!--how do I add text area to message? -->
-		 			<!-- <textarea 
-		 			rows="4" 
-		 			columns="50">
-		 			</textarea> -->
-					<input type="submit" value="submit">
-		 		
-		 		</form>
-			</div>
-		</div>
-
-
-		<!--this is for the sidebar-->
-
-	<div class="sidebar">
-			
-		<h2> Connect with Me </h2>
-
-			<!--adding line break -->
-
-		<hr size=2>
-
-		<div class="imagesconnect">
-			<a href="https://github.com/linhng15">
-				<img src="assets/images/github.png" alt="github" />
-			</a>
-			<a href="https://www.linkedin.com/in/linh-nguyen-a33444129/">
-				<img src="assets/images/linkedin.png" alt="linkedin" />
-			</a>
-			<a href="http://stackoverflow.com/">
-				<img src="assets/images/stackoverflow-square-shadow-social-media.png" alt="stackoverflow" />
-			</a>
-		</div>
-		
-	</div>
-	
-
-		
- <!--the box for footer-->
-  <div class="footer">
-
-  &copy Copyright 2017 Linh Nguyen
-
-
-  </footer>
-
-
+	<footer>
+	    <div class="container">
+	      Copyright &copy; 2017 Linh Nguyen
+	    </div>
+  	</footer>
 </body>
 
-</html>
+</html>		
+	
