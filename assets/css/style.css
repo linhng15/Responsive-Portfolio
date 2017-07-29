@@ -37,6 +37,7 @@ h3 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
   font-weight: 700;
+<<<<<<< HEAD
 }
 
 h1 {
@@ -64,7 +65,6 @@ h3 {
   background: #fff;
   border-bottom: 2px solid #ccc;
 }
-
 #logo {
   width: 250px;
   height: 90px;
@@ -77,6 +77,7 @@ h3 {
   font-size: 30px;
   text-decoration: none;
   background: #4aaaa5;
+
 }
 
 nav {
@@ -98,6 +99,26 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+
+/*footer*/
+
+
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  color: #fff;
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+  bottom: 0;
+  width: 100%
+}
+
+
+/*sidebar*/
 
 /*footer*/
 
@@ -144,12 +165,14 @@ h3,
   margin-right: 5px;
 }
 
+
 .social:last-child {
   margin-right: 0;
 }
 
 
 /*main*/
+
 
 #main-container {
   padding-top: 130px;
@@ -165,8 +188,19 @@ h3,
   border: 1px solid #ddd;
 }
 
+.main-section {
+  padding: 30px;
+  margin: 0 0 40px 0;
+  width: 100%;
+  max-width: 650px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
 
 /*portfolio page*/
+
 
 .work {
   position: relative;
@@ -209,6 +243,12 @@ h3,
 }
 
 
+.clear {
+  clear: both;
+}
+
+
+
 /*contact page*/
 
 #contact-form ul {
@@ -247,6 +287,7 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+
 }
 
 /* Desktops and laptops -------------------------------------------------- */
@@ -496,4 +537,4 @@ and (max-width: 640px) {
     height: 30px;
   }
 
-  }
+
